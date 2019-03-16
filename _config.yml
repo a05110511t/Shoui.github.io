@@ -1,10 +1,10 @@
 # Site settings
-title: Shoui's Blog
-SEOTitle: Shoui's Blog
+title: Shoui Tzeng's Blog
+SEOTitle: Shoui Tzneg's Blog
 header-img: img/home-bg.jpg
 email: a05110511t@gmail.com
-description: "Shoui, A Network Security Engineer"
-keyword: "Shoui, Information Security, Japan Travel"
+description: "Shoui Tzeng, A Network Security Engineer"
+keyword: "Information Security, Japan Travel, Japan Working Holiday"
 url: "a05110511t.github.io"              # your host, for absolute URL
 baseurl: "/"         # for example, '/blog' if your blog hosted on 'host/blog'
 
