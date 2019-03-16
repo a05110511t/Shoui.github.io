@@ -6,7 +6,7 @@ email: a05110511t@gmail.com
 description: "Shoui, A Network Security Engineer"
 keyword: "Shoui, Information Security, Japan Travel"
 url: ""              # your host, for absolute URL
-baseurl: "/blog"         # for example, '/blog' if your blog hosted on 'host/blog'
+baseurl: "a05110511t.github.io"         # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 
