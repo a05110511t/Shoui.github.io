@@ -1,1 +1,162 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/blog/" rel="alternate" type="text/html" /><updated>2019-03-17T01:43:50+08:00</updated><id>http://localhost:4000/blog/feed.xml</id><title type="html">Shoui’s Blog</title><subtitle>Shoui, A Security Engineer</subtitle></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/blog/" rel="alternate" type="text/html" /><updated>2019-03-17T11:08:31+08:00</updated><id>http://localhost:4000/blog/feed.xml</id><title type="html">Shoui Tzeng’s Blog</title><subtitle>Shoui Tzeng, A Network Security Engineer</subtitle><entry><title type="html">台灣好厲駭第一屆 - 曾姓研究生學習心得 &amp;amp; 過程誠實分享</title><link href="http://localhost:4000/blog/2018/%E5%8F%B0%E7%81%A3%E5%A5%BD%E5%8E%B2%E9%A7%AD%E7%AC%AC%E4%B8%80%E5%B1%86-%E6%9B%BE%E5%A7%93%E7%A0%94%E7%A9%B6%E7%94%9F%E5%AD%B8%E7%BF%92%E5%BF%83%E5%BE%97-&-%E9%81%8E%E7%A8%8B%E8%AA%A0%E5%AF%A6%E5%88%86%E4%BA%AB/" rel="alternate" type="text/html" title="台灣好厲駭第一屆 - 曾姓研究生學習心得 &amp; 過程誠實分享" /><published>2018-08-30T00:00:00+08:00</published><updated>2018-08-30T00:00:00+08:00</updated><id>http://localhost:4000/blog/2018/%E5%8F%B0%E7%81%A3%E5%A5%BD%E5%8E%B2%E9%A7%AD%E7%AC%AC%E4%B8%80%E5%B1%86%20-%20%E6%9B%BE%E5%A7%93%E7%A0%94%E7%A9%B6%E7%94%9F%E5%AD%B8%E7%BF%92%E5%BF%83%E5%BE%97%20&amp;%20%E9%81%8E%E7%A8%8B%E8%AA%A0%E5%AF%A6%E5%88%86%E4%BA%AB</id><content type="html" xml:base="http://localhost:4000/blog/2018/%E5%8F%B0%E7%81%A3%E5%A5%BD%E5%8E%B2%E9%A7%AD%E7%AC%AC%E4%B8%80%E5%B1%86-%E6%9B%BE%E5%A7%93%E7%A0%94%E7%A9%B6%E7%94%9F%E5%AD%B8%E7%BF%92%E5%BF%83%E5%BE%97-&amp;-%E9%81%8E%E7%A8%8B%E8%AA%A0%E5%AF%A6%E5%88%86%E4%BA%AB/">&lt;p&gt;2016年8月，誤打誤撞參加了第一屆台灣好厲駭。&lt;/p&gt;
+
+&lt;p&gt;當時面試的時候人還在日本遊學，本來以為人不在應該會被刷掉，
+於是寄信給負責人詢問是否能延期或者幫我取消報名，
+然後就錄取了…（話說有朋友面試時被某位大大嘴爆，幫QQ）&lt;/p&gt;
+
+&lt;p&gt;前陣子本來想分享的，但礙於身份敏感（乾，終於畢業拉！）
+此活動的優點（個人觀感）：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;認識同學、導師（資安業界各路大大）、認識教授（資安學界各路大大）&lt;/li&gt;
+  &lt;li&gt;可詢問自己的導師尋求指導&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;摁，沒了。
+你可能會懷疑就這樣？&lt;/p&gt;
+
+&lt;p&gt;對，沒錯就是這樣，接下來談談…
+此活動的缺點（個人觀感）：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;教授們、導師們太忙&lt;/li&gt;
+  &lt;li&gt;資安領域太廣，當初分組方式很奇怪…&lt;/li&gt;
+  &lt;li&gt;完全依賴自我學習能力，我的意思是該活動對我來說可有可無，除了優點1.和2.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;摁，也沒了XD&lt;/p&gt;
+
+&lt;p&gt;其實不能說這個活動辦得不好，只能說該活動第一次辦，還有更好的進步空間。
+總之，恍恍惚惚也過了一學年，總是要來些成果…&lt;/p&gt;
+
+&lt;iframe width=&quot;826&quot; height=&quot;516&quot; src=&quot;https://www.youtube.com/embed/reHizBRFqdg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;大 Guy 4 J 樣，
+影片內容分享有關於實際網站滲透、國內比賽和
+行政院攻防演練攻擊手等相關經驗分享；
+小弟沒有比較厲害（還在菜），普普通通混口飯吃而已QQ。&lt;/p&gt;
+
+&lt;p&gt;不過第二屆經由第一屆的經驗，改善了許多，
+除了增加許多課程之外，活動也變多了，
+殊不知最近第三屆了已經開始啦…
+所以看看就好嚕，
+哥是不是夠誠實XD”&lt;/p&gt;</content><author><name>Shoui Tzeng</name></author><category term="台灣好厲駭" /><category term="學習心得" /><summary type="html">2016年8月，誤打誤撞參加了第一屆台灣好厲駭。</summary></entry><entry><title type="html">我有個日本夢-日文學習歷程之第一次考N4就失敗</title><link href="http://localhost:4000/blog/2018/%E6%88%91%E6%9C%89%E5%80%8B%E6%97%A5%E6%9C%AC%E5%A4%A2-%E6%97%A5%E6%96%87%E5%AD%B8%E7%BF%92%E6%AD%B7%E7%A8%8B%E4%B9%8B%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%80%83N4%E5%B0%B1%E5%A4%B1%E6%95%97/" rel="alternate" type="text/html" title="我有個日本夢-日文學習歷程之第一次考N4就失敗" /><published>2018-01-26T00:00:00+08:00</published><updated>2018-01-26T00:00:00+08:00</updated><id>http://localhost:4000/blog/2018/%E6%88%91%E6%9C%89%E5%80%8B%E6%97%A5%E6%9C%AC%E5%A4%A2-%E6%97%A5%E6%96%87%E5%AD%B8%E7%BF%92%E6%AD%B7%E7%A8%8B%E4%B9%8B%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%80%83N4%E5%B0%B1%E5%A4%B1%E6%95%97</id><content type="html" xml:base="http://localhost:4000/blog/2018/%E6%88%91%E6%9C%89%E5%80%8B%E6%97%A5%E6%9C%AC%E5%A4%A2-%E6%97%A5%E6%96%87%E5%AD%B8%E7%BF%92%E6%AD%B7%E7%A8%8B%E4%B9%8B%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%80%83N4%E5%B0%B1%E5%A4%B1%E6%95%97/">&lt;p&gt;說到日文，從小就愛看日本卡通、漫畫，也聽了超級久的日文歌，
+但都沒特別去查是什麼意思，胡亂聽了好幾年。&lt;/p&gt;
+
+&lt;p&gt;第一次想認真學日文是在2008高中的時候，
+當時高中同學有修第二外語日文，
+但是那時候被補習班洗腦說：先學好課業以後大學再去修課之類的。&lt;/p&gt;
+
+&lt;p&gt;於是到了2011上大學才開始接觸日文，
+第一學期日文課滿認真的，但是後面就有點疲倦…應該說有點跟不上，當時拿了90分；
+第二學期開始交女朋友就沒啥在認真學了…整個斷掉，最後60分作收。&lt;/p&gt;
+
+&lt;p&gt;教材是用日本語gogogo1和2，不過gogogo2在一下的學期中不見了，不知道被誰幹走==
+後來整整斷了兩年。&lt;/p&gt;
+
+&lt;p&gt;時間來到大四上，不想忘記初衷，復出從頭開始學日文，
+大概有念完吧我自己也有點忘記了，
+但一直都沒有很認真，畢竟要顧學業又要打電動，
+不過五十音算比較熟一點，有在看youtube的日文歌カラオケ練習，
+契機應該是看到關8比賽中這個唱歌節目XD&lt;/p&gt;
+
+&lt;p&gt;時間來到2015碩一上，在12月的時候想好好認真學日文，
+於是買了音速日語教材慢慢聽慢慢看，
+結果看超級慢，2016/7月去遊學前一天才凌晨在7-11把後面五章（左右）看完，
+知識遊學的承辦人員有問我程度大概如何，我說我大一有修過但都忘光了，
+他就說那就填一個月吧XDD&lt;/p&gt;
+
+&lt;p&gt;去了日本關西大學遊學三週，住在南千里車站附近的國際學生寮，
+在那邊分班考分到了B班，總共分初級AB班、中級班和高級班。
+分班考老師給我們一張紙，裡面有對話要我們複誦，
+總之靠著前一天凌晨零時抱佛腳還是進了B班XDD
+AB的差別只是B班進度比較快，比較不會那麼多時間在解釋，
+也確實B班程度比A班好多一些；
+聽說A班的同學完全不懂老師在講什麼，容易打斷老師的上課節奏。&lt;/p&gt;
+
+&lt;p&gt;總之在B班過得還ok，一樣從50音開始教，最後期末考77分的樣子XD”
+當時還發生一個趣事，某位女學生分錯班，應該去A班不知怎的混到了B班，
+整個跟不上，狂煩我隔壁同學XD，幫她QQ
+是說在那邊認識了不錯的台灣朋友和日本朋友，
+不過日本朋友好像不太理我了哈哈&lt;/p&gt;
+
+&lt;p&gt;後來不小心考到臺科大資管所，
+就離開原本念一年的學校，當時每天晚上睡前用Anki背單字，
+也忘記背多久，大概有把N5N4單字背得差不多，
+然後把音速日語集大成I都唸完了，
+也因為在KPMG實習，比較沒什麼時間，後來就懶得用Anki了QQ
+到了2017/1月左右吧？買了兩本考試用書，分別是日檢完勝500題N5N4和N3，
+寫了覺得難，除了單字外，語意和文法都不太會==
+後來八月因緣際會入闈場12天，於是七月就買了把日本語gogogo234都買齊，
+打算進闈場很無聊時能看多少就看多少。&lt;/p&gt;
+
+&lt;p&gt;結果在裡面閉關，只看了一半的gogogo2，
+畢竟這教材需要音檔，
+但是裡面又不能帶電子產品…
+總之靠著硬念念了一半，也唸的2266&lt;/p&gt;
+
+&lt;p&gt;2017/7月初得知了廉航的消息，
+訂了酷航北海道來回機票10d9n共63XX，行程點我。
+2017/8月底去了北海道，嘗試使用了破日文，但是對方都還是用英文回我..
+最有印象的是在トマム星野度假村，櫃檯帥哥稱讚我日文不錯阿，
+我：すみません、私の日本語はあまりできません。
+櫃檯帥哥：Don’t worry, you’re pronunciation is very good.
+…
+總之度過了愉快的北海道假期。
+來張函館山一百萬美元的夜景照XD&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://3.bp.blogspot.com/-6dRsf_FTiLc/WmtI90BVDgI/AAAAAAAALwQ/aPv1TmIZhx0sb1kBQQ8nR7oTcfQz1xG6QCLcBGAs/s1600/photo_2018-01-26_23-25-56.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;6s拍的，
+拍了很多張也不知道哪張比較好^^”&lt;/p&gt;
+
+&lt;p&gt;總之九月中決定報名看看日文檢定N4，
+於是開始把gogogo 2半，3和4都念完，
+幾乎每天都在家裡念課文聽音檔，
+當然還有研究所要看的論文啦，簡報啦之類的事情；
+總之2017/12/3考前一週念完了gogog4，
+開始了模擬考題之旅的訓練，
+去圖書館借了
+新日檢N4模擬試題＋完全解析 修訂二版（隨書附贈聽解試題CD＋MP3）
+絕對合格日檢聽力N4新制對應!&lt;/p&gt;
+
+&lt;p&gt;日檢完勝500題N5N4做了2又3/4輪，剩下第四週第三輪沒做完。
+總之我想抱怨的是，有用但是不會過T_T
+模擬考的時候，一回比一回難一點，&lt;/p&gt;
+
+&lt;p&gt;30/44/26 100/180
+40/42/4X 12X/180（一時找不到當時寫的紙
+44/44/X沒考 應該可以13X/180&lt;/p&gt;
+
+&lt;p&gt;當時想說這樣應該是穩過了，目標定在120/180。
+而聽力是狂聽 絕對合格日檢聽力N4新制對應!
+大致上可以對7成，
+也在裡面學到いいよ的語氣，各種題型以及一些用法順便複習單字，
+音聽速度我有調1.14~8和原始聲音交互聽，
+但是萬萬沒想到….&lt;/p&gt;
+
+&lt;p&gt;正式考試的時候言語知識很簡單，文法、閱讀覺得有難一點，聽力爆難，
+聽力速度大概是 絕對合格日檢聽力N4新制對應! 的速度*1.4倍，
+幾乎聽不懂都用猜的，不然就是一直迂迴，或是A不要B不要C不要D沒說，
+完全不知道選哪一個=_=&lt;/p&gt;
+
+&lt;p&gt;最後附上慘不忍睹的成績單…&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-3K-7tpys9Zc/WmtNqBo9TBI/AAAAAAAAMGg/CKiyzSQb_gEfhPZ6-2dftpvAWrCRhslwACLcBGAs/s1600/photo_2018-01-25_23-10-43.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;讀解問號只有C，在寫 新日檢N4模擬試題＋完全解析 時閱讀是錯最少的…
+原本考完擔心聽力可能不會過19分，但沒想到敗在讀解QQ&lt;/p&gt;
+
+&lt;p&gt;自己沒好好認真讀也是一個原因吧，
+應該再多讀幾輪gogogo的，
+聽力也是一大原因，
+想說幾乎每天聽gogogo音檔，騎車聽睡前聽，
+也有500題的cover…&lt;/p&gt;
+
+&lt;p&gt;總之這次挑戰失利，
+然後要開始弄論文了，畢竟要碩二下了QQ
+而下次是2018/7再考一次N4呢？還是12月拼N3呢？
+就看3, 4月論文的進度如何吧（汗&lt;/p&gt;
+
+&lt;p&gt;對了，我還另外發現日檢可以查別人成績XD
+漏洞詳情可以參考：&lt;a href=&quot;https://zeroday.hitcon.org/vulnerability/ZD-2018-00090&quot;&gt;Hitcon Zeroday&lt;/a&gt;&lt;/p&gt;</content><author><name>Shoui Tzeng</name></author><category term="JLPT N4" /><category term="日文檢定" /><summary type="html">說到日文，從小就愛看日本卡通、漫畫，也聽了超級久的日文歌， 但都沒特別去查是什麼意思，胡亂聽了好幾年。</summary></entry></feed>

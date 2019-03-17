@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Shoui Tzeng, A Network Security Engineer">
+    <meta name="keyword"  content="Information Security, Japan Travel, Japan Working Holiday">
+    <link rel="shortcut icon" href="/blog/img/favicon.ico">
+
+    <title>我有個日本夢-日文學習歷程之第一次考N4就失敗 - Shoui Tzneg's Blog</title>
+
+    <link rel="canonical" href="http://localhost:4000/blog/2018/%E6%88%91%E6%9C%89%E5%80%8B%E6%97%A5%E6%9C%AC%E5%A4%A2-%E6%97%A5%E6%96%87%E5%AD%B8%E7%BF%92%E6%AD%B7%E7%A8%8B%E4%B9%8B%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%80%83N4%E5%B0%B1%E5%A4%B1%E6%95%97/">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/blog/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/blog/css/hux-blog.min.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/blog/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <!-- <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+    <!-- Hux change font-awesome CDN to qiniu -->
+    <link href="http://cdn.staticfile.org/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+
+    <script></script>
+</head>
+
+
+<!-- hack iOS CSS :active style -->
+<body ontouchstart="">
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/blog/">Shoui Tzeng's Blog</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <!-- Known Issue, found by Hux:
+            <nav>'s height woule be hold on by its content.
+            so, when navbar scale out, the <nav> will cover tags.
+            also mask any touch event of tags, unfortunately.
+        -->
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/blog/">Home</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/blog/about/">About me</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/blog/archive/">Archives</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/blog/tags/">Tags</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+<script>
+    // Drop Bootstarp low-performance Navbar
+    // Use customize navbar with high-quality material design animation
+    // in high-perf jank-free CSS3 implementation
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    $toggle.addEventListener('click', handleMagic)
+    function handleMagic(e){
+        if ($navbar.className.indexOf('in') > 0) {
+        // CLOSE
+            $navbar.className = " ";
+            // wait until animation end.
+            setTimeout(function(){
+                // prevent frequently toggle
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        }else{
+        // OPEN
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+</script>
+
+
+    <!-- Image to hack wechat -->
+<!-- <img src="/img/icon_wechat.png" width="0" height="0"> -->
+<!-- <img src="/blog/img/home-bg.jpg" width="0" height="0"> -->
+
+<!-- Post Header -->
+<style type="text/css">
+    header.intro-header{
+        background-image: url('/blog/img/home-bg.jpg')
+    }
+</style>
+<header class="intro-header" >
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                        <a class="tag" href="/blog/tags/#JLPT N4" title="JLPT N4">JLPT N4</a>
+                        
+                        <a class="tag" href="/blog/tags/#日文檢定" title="日文檢定">日文檢定</a>
+                        
+                    </div>
+                    <h1>我有個日本夢-日文學習歷程之第一次考N4就失敗</h1>
+                    
+                    
+                    <h2 class="subheading"></h2>
+                    
+                    <span class="meta">Posted by Shoui Tzeng on January 26, 2018</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+    <!-- Post Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
+
+				<p>說到日文，從小就愛看日本卡通、漫畫，也聽了超級久的日文歌，
+但都沒特別去查是什麼意思，胡亂聽了好幾年。</p>
+
+<p>第一次想認真學日文是在2008高中的時候，
+當時高中同學有修第二外語日文，
+但是那時候被補習班洗腦說：先學好課業以後大學再去修課之類的。</p>
+
+<p>於是到了2011上大學才開始接觸日文，
+第一學期日文課滿認真的，但是後面就有點疲倦…應該說有點跟不上，當時拿了90分；
+第二學期開始交女朋友就沒啥在認真學了…整個斷掉，最後60分作收。</p>
+
+<p>教材是用日本語gogogo1和2，不過gogogo2在一下的學期中不見了，不知道被誰幹走==
+後來整整斷了兩年。</p>
+
+<p>時間來到大四上，不想忘記初衷，復出從頭開始學日文，
+大概有念完吧我自己也有點忘記了，
+但一直都沒有很認真，畢竟要顧學業又要打電動，
+不過五十音算比較熟一點，有在看youtube的日文歌カラオケ練習，
+契機應該是看到關8比賽中這個唱歌節目XD</p>
+
+<p>時間來到2015碩一上，在12月的時候想好好認真學日文，
+於是買了音速日語教材慢慢聽慢慢看，
+結果看超級慢，2016/7月去遊學前一天才凌晨在7-11把後面五章（左右）看完，
+知識遊學的承辦人員有問我程度大概如何，我說我大一有修過但都忘光了，
+他就說那就填一個月吧XDD</p>
+
+<p>去了日本關西大學遊學三週，住在南千里車站附近的國際學生寮，
+在那邊分班考分到了B班，總共分初級AB班、中級班和高級班。
+分班考老師給我們一張紙，裡面有對話要我們複誦，
+總之靠著前一天凌晨零時抱佛腳還是進了B班XDD
+AB的差別只是B班進度比較快，比較不會那麼多時間在解釋，
+也確實B班程度比A班好多一些；
+聽說A班的同學完全不懂老師在講什麼，容易打斷老師的上課節奏。</p>
+
+<p>總之在B班過得還ok，一樣從50音開始教，最後期末考77分的樣子XD”
+當時還發生一個趣事，某位女學生分錯班，應該去A班不知怎的混到了B班，
+整個跟不上，狂煩我隔壁同學XD，幫她QQ
+是說在那邊認識了不錯的台灣朋友和日本朋友，
+不過日本朋友好像不太理我了哈哈</p>
+
+<p>後來不小心考到臺科大資管所，
+就離開原本念一年的學校，當時每天晚上睡前用Anki背單字，
+也忘記背多久，大概有把N5N4單字背得差不多，
+然後把音速日語集大成I都唸完了，
+也因為在KPMG實習，比較沒什麼時間，後來就懶得用Anki了QQ
+到了2017/1月左右吧？買了兩本考試用書，分別是日檢完勝500題N5N4和N3，
+寫了覺得難，除了單字外，語意和文法都不太會==
+後來八月因緣際會入闈場12天，於是七月就買了把日本語gogogo234都買齊，
+打算進闈場很無聊時能看多少就看多少。</p>
+
+<p>結果在裡面閉關，只看了一半的gogogo2，
+畢竟這教材需要音檔，
+但是裡面又不能帶電子產品…
+總之靠著硬念念了一半，也唸的2266</p>
+
+<p>2017/7月初得知了廉航的消息，
+訂了酷航北海道來回機票10d9n共63XX，行程點我。
+2017/8月底去了北海道，嘗試使用了破日文，但是對方都還是用英文回我..
+最有印象的是在トマム星野度假村，櫃檯帥哥稱讚我日文不錯阿，
+我：すみません、私の日本語はあまりできません。
+櫃檯帥哥：Don’t worry, you’re pronunciation is very good.
+…
+總之度過了愉快的北海道假期。
+來張函館山一百萬美元的夜景照XD</p>
+
+<p><img src="https://3.bp.blogspot.com/-6dRsf_FTiLc/WmtI90BVDgI/AAAAAAAALwQ/aPv1TmIZhx0sb1kBQQ8nR7oTcfQz1xG6QCLcBGAs/s1600/photo_2018-01-26_23-25-56.jpg" alt="" /></p>
+
+<p>6s拍的，
+拍了很多張也不知道哪張比較好^^”</p>
+
+<p>總之九月中決定報名看看日文檢定N4，
+於是開始把gogogo 2半，3和4都念完，
+幾乎每天都在家裡念課文聽音檔，
+當然還有研究所要看的論文啦，簡報啦之類的事情；
+總之2017/12/3考前一週念完了gogog4，
+開始了模擬考題之旅的訓練，
+去圖書館借了
+新日檢N4模擬試題＋完全解析 修訂二版（隨書附贈聽解試題CD＋MP3）
+絕對合格日檢聽力N4新制對應!</p>
+
+<p>日檢完勝500題N5N4做了2又3/4輪，剩下第四週第三輪沒做完。
+總之我想抱怨的是，有用但是不會過T_T
+模擬考的時候，一回比一回難一點，</p>
+
+<p>30/44/26 100/180
+40/42/4X 12X/180（一時找不到當時寫的紙
+44/44/X沒考 應該可以13X/180</p>
+
+<p>當時想說這樣應該是穩過了，目標定在120/180。
+而聽力是狂聽 絕對合格日檢聽力N4新制對應!
+大致上可以對7成，
+也在裡面學到いいよ的語氣，各種題型以及一些用法順便複習單字，
+音聽速度我有調1.14~8和原始聲音交互聽，
+但是萬萬沒想到….</p>
+
+<p>正式考試的時候言語知識很簡單，文法、閱讀覺得有難一點，聽力爆難，
+聽力速度大概是 絕對合格日檢聽力N4新制對應! 的速度*1.4倍，
+幾乎聽不懂都用猜的，不然就是一直迂迴，或是A不要B不要C不要D沒說，
+完全不知道選哪一個=_=</p>
+
+<p>最後附上慘不忍睹的成績單…</p>
+
+<p><img src="https://1.bp.blogspot.com/-3K-7tpys9Zc/WmtNqBo9TBI/AAAAAAAAMGg/CKiyzSQb_gEfhPZ6-2dftpvAWrCRhslwACLcBGAs/s1600/photo_2018-01-25_23-10-43.jpg" alt="" /></p>
+
+<p>讀解問號只有C，在寫 新日檢N4模擬試題＋完全解析 時閱讀是錯最少的…
+原本考完擔心聽力可能不會過19分，但沒想到敗在讀解QQ</p>
+
+<p>自己沒好好認真讀也是一個原因吧，
+應該再多讀幾輪gogogo的，
+聽力也是一大原因，
+想說幾乎每天聽gogogo音檔，騎車聽睡前聽，
+也有500題的cover…</p>
+
+<p>總之這次挑戰失利，
+然後要開始弄論文了，畢竟要碩二下了QQ
+而下次是2018/7再考一次N4呢？還是12月拼N3呢？
+就看3, 4月論文的進度如何吧（汗</p>
+
+<p>對了，我還另外發現日檢可以查別人成績XD
+漏洞詳情可以參考：<a href="https://zeroday.hitcon.org/vulnerability/ZD-2018-00090">Hitcon Zeroday</a></p>
+
+
+                <hr>
+
+              
+               
+
+
+                <ul class="pager">
+                    
+                    
+                    <li class="next">
+                        <a href="/blog/2018/%E5%8F%B0%E7%81%A3%E5%A5%BD%E5%8E%B2%E9%A7%AD%E7%AC%AC%E4%B8%80%E5%B1%86-%E6%9B%BE%E5%A7%93%E7%A0%94%E7%A9%B6%E7%94%9F%E5%AD%B8%E7%BF%92%E5%BF%83%E5%BE%97-&-%E9%81%8E%E7%A8%8B%E8%AA%A0%E5%AF%A6%E5%88%86%E4%BA%AB/" data-toggle="tooltip" data-placement="top" title="台灣好厲駭第一屆 - 曾姓研究生學習心得 & 過程誠實分享">Next Post &rarr;</a>
+                    </li>
+                    
+                </ul>
+
+
+             
+
+            </div>
+
+    
+        </div>
+    </div>
+</article>
+
+
+
+
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'always',
+          placement: 'right',
+          icon: '#'
+        };
+        anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+    })
+</script>
+<style>
+    /* place left on bigger screen */
+    @media all and (min-width: 800px) {
+        .anchorjs-link{
+            position: absolute;
+            left: -0.75em;
+            font-size: 1.1em;
+            margin-top : -0.1em;
+        }
+    }
+</style>
+
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    
+                    
+
+                    <!-- add Weibo, Zhihu by Hux, add target = "_blank" to <a> by Hux -->
+                    
+                    
+
+
+                    
+                    <li>
+                        <a target="_blank" href="https://www.facebook.com/100000455282462">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li>
+                        <a target="_blank" href="https://github.com/a05110511t">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                </ul>
+                <p class="copyright text-muted">
+                    Copyright &copy; Shoui Tzeng's Blog 2019
+                    
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/blog/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/blog/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/blog/js/hux-blog.min.js "></script>
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+<!-- 
+     Because of the native support for backtick-style fenced code blocks 
+     right within the Markdown is landed in Github Pages, 
+     From V1.6, There is no need for Highlight.js, 
+     so Huxblog drops it officially.
+
+     - https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0  
+     - https://help.github.com/articles/creating-and-highlighting-code-blocks/    
+-->
+<!--
+    <script>
+        async("http://cdn.bootcss.com/highlight.js/8.6/highlight.min.js", function(){
+            hljs.initHighlightingOnLoad();
+        })
+    </script>
+    <link href="http://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
+-->
+
+
+<!-- jquery.tagcloud.js -->
+<script>
+    // only load tagcloud.js in tag.html
+    if($('#tag_cloud').length !== 0){
+        async("/js/jquery.tagcloud.js",function(){
+            $.fn.tagcloud.defaults = {
+                //size: {start: 1, end: 1, unit: 'em'},
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+<!--fastClick.js -->
+<script>
+    async("http://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+<!-- Google Analytics -->
+
+
+
+<!-- Baidu Tongji -->
+
+
+
+
+<!-- Image to hack wechat -->
+<img src="/img/icon_wechat.png" width="0" height="0" />
+<!-- Migrate from head to bottom, no longer block render and still work -->
+
+</body>
+
+</html>
