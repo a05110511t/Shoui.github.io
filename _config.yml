@@ -5,8 +5,8 @@ header-img: img/home-bg.jpg
 email: a05110511t@gmail.com
 description: "Shoui Tzeng, A Network Security Engineer"
 keyword: "Information Security, Japan Travel, Japan Working Holiday"
-url: "a05110511t.github.io"              # your host, for absolute URL
-baseurl: "/"         # for example, '/blog' if your blog hosted on 'host/blog'
+url: ""              # your host, for absolute URL
+baseurl: "/blog"         # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 
@@ -69,7 +69,7 @@ ga_domain:
 # Sidebar settings
 sidebar: false                           # whether or not using Sidebar.
 #sidebar-about-description: ""
-#sidebar-avatar: /img/avatar-hux.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+#sidebar-avatar: /img/avatar.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
